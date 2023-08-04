@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-12" id="comics">
             <div class="col-12 position-absolute w-75" id="comic">
-                <img src="{{ $comic['thumb'] }}" alt="" class="my-3">
+                <img src="{{ $comic->thumb }}" alt="" class="my-3">
             </div>
             <div class="col-8 bg-success d-flex flex-row mt-4 align-items-center border rounded border-0 p-2 justify-content-between">
                 <section class="price d-flex flex-row">U.S.:
