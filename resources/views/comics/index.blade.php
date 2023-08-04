@@ -2,7 +2,12 @@
 @section('content')
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 my-5">
+                <button type="button" class="btn btn-primary">
+                    <a href="{{ route('comics.create') }}" class="link-underline link-underline-opacity-0 link-light">
+                        Aggiungi Fumetto
+                    </a>
+                </button>
                 <table class="table">
                   <thead>
                     <tr>
