@@ -20,6 +20,11 @@
                       <td>{{ $comic->title }}</td>
                       <td>{{ $comic->series }}</td>
                       <td>{{ $comic->price }}</td>
+                      <td>
+                      <button type="button" class="btn btn-primary"><a href="" class="link-underline link-underline-opacity-0 link-light"><i class="fas fa-eye"></i></a></button>
+                      <button type="button" class="btn btn-danger"><a href="" class="link-underline link-underline-opacity-0 link-light"><i class="fas fa-trash-can"></i></a></button>
+                      <button type="button" class="btn btn-warning"><a href="" class="link-underline link-underline-opacity-0 link-dark"><i class="fas fa-pen"></i></a></button>
+                      </td>
                     </tr>
                     @endforeach
                   </tbody>
