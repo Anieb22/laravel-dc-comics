@@ -1,1 +1,97 @@
 @import '~bootstrap/scss/bootstrap';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.jumbotron {
+    background-image: url("../img/jumbotron.jpg");
+    height: 400px;
+}
+
+#menu-bar li:hover {
+    color: #0d6efd;
+    cursor: pointer;
+}
+
+#menu-bar li,
+a {
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+}
+
+#comics-list img:hover {
+    border: 1px solid #0d6efd;
+}
+
+#mid-bar img {
+    width: 3rem;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+#mid-bar p {
+    font-family: sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.bg-footer {
+    background-image: url('../img/footer-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-footer ul li {
+    list-style-type: none;
+}
+
+.body-text {
+    color: rgb(134, 134, 134);
+    cursor: pointer;
+}
+
+.body-text:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#footer li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li#head-id {
+    font-family: 'Oswald', sans-serif;
+}
+
+#social img {
+    margin: 0px 5px;
+}
+
+#comic img {
+    width: 220px;
+    position: relative;
+    bottom: 335px;
+}
+
+#comics h1,
+#talent th {
+    color: #003486
+}
+
+.price {
+    color: rgb(127, 189, 135)
+}
+
+p#description {
+    color: rgb(160, 160, 160);
+}
