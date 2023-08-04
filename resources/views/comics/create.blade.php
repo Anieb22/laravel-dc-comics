@@ -3,7 +3,8 @@
 <div class="container">
     <div class="row">
         <div class="col-12 my-5">
-            <form action="" method="get">
+            <form action="{{route('comics.store')}}" method="post">
+                @csrf
                 <div class="form-group my-2">
                     <label for="" class="control-label">Titolo</label>
                     <input type="text" class="form-control" id="title" name="title" placeholder="Titolo">
