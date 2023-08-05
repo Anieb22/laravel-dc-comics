@@ -1,15 +1,16 @@
 @extends('layouts.app')
+
 @section('content')
 <div class="bg-primary" style="height: 100px"></div>
 <div class="container">
     <div class="row">
         <div class="col-12" id="comics">
             <div class="col-12 position-absolute w-75" id="comic">
-                <img src="{{ $comic->thumb }}" alt="" class="my-3">
+                <img src="{{ $comic['thumb'] }}" alt="" class="my-3">
             </div>
             <div class="col-8 bg-success d-flex flex-row mt-4 align-items-center border rounded border-0 p-2 justify-content-between">
                 <section class="price d-flex flex-row">U.S.:
-                <section class="text-white bold-text ms-1">{{$comic->price}}</section>
+                <section class="text-white bold-text ms-1">{{$comic['price']}}</section>
                 </section>
                 <div class="d-flex justify-content-end">
                 <section class="me-1 price d-flex">AVAILABLE</section>
@@ -17,10 +18,14 @@
             </div>
             <div class="col-12 d-flex flex-row justify-content-between">
                 <div class="col-8 my-4">
-                    <h1>{{$comic->price}}</h1>
+                    <h1>{{$comic->title}}</h1>
                     <p class=".text-body-secondary" id="description">
-                     {{$comic->price}}
+                     {{$comic->description}}
                     </p>
+                </div>
+                <div class="col-2 d-flex flex-column align-items-end mb-5">
+                    <h6 class="text-uppercase">advertisement</h6>
+                    <img src="{{ Vite::asset('resources/img/advertisement.png')}}" alt="">
                 </div>
             </div>
         </div>
