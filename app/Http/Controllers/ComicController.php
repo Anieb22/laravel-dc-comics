@@ -74,6 +74,11 @@ class ComicController extends Controller
      */
     public function edit(Comic $comic)
     {
+<<<<<<< HEAD
+=======
+        $comic = Comic::all();
+
+>>>>>>> f3540feebe3046b804efc105bbbcc0abeaf7df29
         return view('comics.edit', compact('comic'));
     }
 
