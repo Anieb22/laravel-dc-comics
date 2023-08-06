@@ -8,6 +8,11 @@
                         Aggiungi Fumetto
                     </a>
                 </button>
+                @if (session('deleted'))
+                    <div class="alert alert-success" role="alert">
+                        {{ session('deleted') }}
+                    </div>
+                @endif
                 <table class="table">
                   <thead>
                     <tr>
