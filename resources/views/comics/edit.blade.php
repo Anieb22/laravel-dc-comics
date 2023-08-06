@@ -8,35 +8,35 @@
 
                 @method('PUT')
                 <div class="form-group my-2">
-                    <label for="" class="control-label">Titolo</label>
+                    <label for="title" class="control-label">Titolo</label>
                     <input type="text" class="form-control" id="title" name="title" placeholder="Titolo" value="{{ $comic->title}}">
                 </div>
                 <div class="form-group my-2">
-                    <label for="" class="control-label">Serie</label>
+                    <label for="series" class="control-label">Serie</label>
                     <input type="text" class="form-control" id="series" name="series" placeholder="Serie" value="{{ $comic->series}}">
                 </div>
                 <div class="form-group my-2">
-                    <label for="" class="control-label">Prezzo</label>
+                    <label for="price" class="control-label">Prezzo</label>
                     <input type="text" class="form-control" id="price" name="price" placeholder="Prezzo" value="{{ $comic->price}}">
                 </div>
                 <div class="form-group my-2">
-                    <label for="" class="control-label">Immagine</label>
+                    <label for="thumb" class="control-label">Immagine</label>
                     <input type="text" class="form-control" id="thumb" name="thumb" placeholder="Inserisci un url" value="{{ $comic->thumb}}">
                 </div>
                 <div class="form-group my-2">
-                    <label for="" class="control-label">Tipo</label>
+                    <label for="type" class="control-label">Tipo</label>
                     <input type="text" class="form-control" id="type" name="type" placeholder="Tipo" value="{{ $comic->type}}">
                 </div>
                 <div class="form-group my-2">
-                    <label for="" class="control-label">Artista/i</label>
+                    <label for="artists" class="control-label">Artista/i</label>
                     <input type="text" class="form-control" id="artists" name="artists" placeholder="Artista/i" value="{{ $comic->artists}}">
                 </div>
                 <div class="form-group my-2">
-                    <label for="" class="control-label">Scrittore/i</label>
+                    <label for="writers" class="control-label">Scrittore/i</label>
                     <input type="text" class="form-control" id="writers" name="writers" placeholder="Scrittore/i" value="{{ $comic->writers}}">
                 </div>
                 <div class="form-group my-2">
-                    <label for="" class="control-label">Descrizione</label>
+                    <label for="description" class="control-label">Descrizione</label>
                     <textarea class="form-control" id="description" name="description" placeholder="Descrizione">{{ $comic->description}}</textarea>
                 </div>
                 <div class="form-group my-2">
