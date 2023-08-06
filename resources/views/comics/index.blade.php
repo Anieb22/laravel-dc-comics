@@ -31,7 +31,7 @@
                                 <i class="fas fa-eye"></i>
                             </a>
                         </button>
-                        <form action="{{ route('comics.destroy', ['comic' => $comic]) }}" method="post">
+                        <form action="{{ route('comics.destroy', ['comic' => $comic]) }}" method="post" class="d-inline">
                           @csrf
                           @method('DELETE')
                         <button type="submit" class="btn btn-danger"><i class="fas fa-trash-can"></i></button>
